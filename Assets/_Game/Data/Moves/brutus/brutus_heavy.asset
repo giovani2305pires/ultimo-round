@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8184aa4466342be43aa716f75bd94622, type: 3}
+  m_Name: brutus_heavy
+  m_EditorClassIdentifier: UltimoRound.Runtime::UltimoRound.Combat.MoveDefinition
+  Id: brutus_heavy
+  DisplayName: Gancho de ferro
+  Slot: 3
+  Notation: Forte
+  Description: "Derruba. Muito pun\xEDvel se defendido."
+  Level: 1
+  Damage: 125
+  Startup: 13
+  Active: 4
+  Recovery: 24
+  Hitstun: 24
+  Blockstun: 16
+  Hitstop: 11
+  Hitbox:
+    X: 0.9
+    Y: 1.3
+    W: 0.72
+    H: 0.42
+  Hits: 1
+  HitInterval: 0
+  PushbackHit: 0.6
+  PushbackBlock: 0.8
+  Knockdown: 1
+  LaunchVelocity: {x: 2.5, y: 4.5}
+  RopeBounce: 0
+  ExtendHurtbox: 1
+  EnergyCost: 0
+  EnergyGain: 12
+  CancelInto: 
+  CancelOnBlock: 1
+  CancelWindowExtra: 6
+  ForwardVelocity: 0
+  MoveStartTick: 0
+  MoveEndTick: 0
+  RequiresAir: 0
+  LandingRecovery: 4
+  Invuln: 0
+  InvulnStart: 0
+  InvulnEnd: 0
+  ThrowRange: 0.45
+  ThrowSwapsSides: 0
+  Pose: 2
+  HitSfx: 1
+  IsSpecial: 0

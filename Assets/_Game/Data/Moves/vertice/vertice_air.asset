@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8184aa4466342be43aa716f75bd94622, type: 3}
+  m_Name: vertice_air
+  m_EditorClassIdentifier: UltimoRound.Runtime::UltimoRound.Combat.MoveDefinition
+  Id: vertice_air
+  DisplayName: Voadora
+  Slot: 7
+  Notation: 'No ar: Soco/Chute/Forte'
+  Description: 
+  Level: 3
+  Damage: 65
+  Startup: 6
+  Active: 7
+  Recovery: 8
+  Hitstun: 18
+  Blockstun: 12
+  Hitstop: 7
+  Hitbox:
+    X: 0.76
+    Y: 0.5
+    W: 0.74
+    H: 0.36
+  Hits: 1
+  HitInterval: 0
+  PushbackHit: 0.25
+  PushbackBlock: 0.45
+  Knockdown: 0
+  LaunchVelocity: {x: 2.5, y: 7}
+  RopeBounce: 0
+  ExtendHurtbox: 1
+  EnergyCost: 0
+  EnergyGain: 6
+  CancelInto: 
+  CancelOnBlock: 1
+  CancelWindowExtra: 6
+  ForwardVelocity: 0
+  MoveStartTick: 0
+  MoveEndTick: 0
+  RequiresAir: 1
+  LandingRecovery: 4
+  Invuln: 0
+  InvulnStart: 0
+  InvulnEnd: 0
+  ThrowRange: 0.45
+  ThrowSwapsSides: 0
+  Pose: 9
+  HitSfx: 0
+  IsSpecial: 0

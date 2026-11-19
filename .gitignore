@@ -1,0 +1,69 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Dist/
+
+# IDE / gerados
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash / builds
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.zip
+
+# Credenciais
+*.pem
+*.key
+.env
+.env.*
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Entregáveis montados para a faculdade
+/Entrega/
+
+# Pacotes da Asset Store: a licença não permite publicá-los. Importe-os pelo Package Manager (ver README).
+/Assets/Deadly Kombat Free version*
+/Assets/ExplosiveLLC*
+/Assets/FightingMotionsVolume1*
+/Assets/GabrielAguiarProductions*
+/Assets/Kevin Iglesias*
+/Assets/Low Poly Weapons VOL.1*
+/Assets/Survivalist*
+/Assets/Tiny Teacup Studio*
+/Assets/tt-3d*
+# Gerados a partir desses pacotes por Último Round › Assets
+/Assets/_Game/Art/Materials/Convertidos*
+/Assets/_Game/Prefabs/Lutadores*
+/Assets/_Game/Data/Visuais*
+/Assets/_Game/Data/SoundBank.asset*
+

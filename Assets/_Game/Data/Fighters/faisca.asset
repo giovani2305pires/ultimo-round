@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b728c22b46929f4a8782c1b0c051ab7, type: 3}
+  m_Name: faisca
+  m_EditorClassIdentifier: UltimoRound.Runtime::UltimoRound.Combat.FighterDefinition
+  Id: faisca
+  DisplayName: "Fa\xEDsca"
+  Epithet: "A Rel\xE2mpago"
+  Style: "Press\xE3o \xE1gil"
+  Summary: "Golpes muito r\xE1pidos, avan\xE7o rasteiro e rajadas. Vive colada no advers\xE1rio e sufoca com sequ\xEAncias curtas."
+  Weakness: "Pouca vida e dano baixo por golpe; alcance curto obriga a se aproximar, e ela \xE9 punida ao ser mantida \xE0 dist\xE2ncia."
+  Selectable: 1
+  StatReach: 2
+  StatSpeed: 5
+  StatPower: 2
+  MaxHealth: 900
+  WalkSpeed: 3.2
+  BackWalkSpeed: 2.6
+  DashSpeed: 9
+  DashTicks: 12
+  BackDashSpeed: 7.5
+  BackDashTicks: 14
+  BackDashInvulnTicks: 6
+  JumpVelocity: 10.4
+  JumpForwardSpeed: 3.6
+  Gravity: 33
+  PreJumpTicks: 2
+  LandingTicks: 2
+  PushHalfWidth: 0.28
+  PushHeight: 1.62
+  CrouchPushHeight: 1
+  StandHurtboxes:
+  - X: 0.04
+    Y: 0.81
+    W: 0.54
+    H: 1.62
+  - X: 0.1
+    Y: 1.54
+    W: 0.3
+    H: 0.3
+  CrouchHurtboxes:
+  - X: 0.04
+    Y: 0.5
+    W: 0.62
+    H: 1
+  AirHurtboxes:
+  - X: 0
+    Y: 0.8
+    W: 0.54
+    H: 1.2
+  Punch: {fileID: 11400000, guid: 29869d3cb46ac7a4e900a727c2cd7cb0, type: 2}
+  Kick: {fileID: 11400000, guid: e65ea89d245151049ab286510c48b87f, type: 2}
+  Heavy: {fileID: 11400000, guid: 38ebe11a6a44ea94cacff9fac4c63ebc, type: 2}
+  CrouchPunch: {fileID: 11400000, guid: e05878882783c8d41bd5b1b9f04be045, type: 2}
+  Low: {fileID: 11400000, guid: e254fc0ff5bfe794f9702dda786f7d69, type: 2}
+  AntiAir: {fileID: 11400000, guid: 73caa56d4ab45fe4ba51bc127f30010a, type: 2}
+  Air: {fileID: 11400000, guid: 80ee9a74135d6314e82891a507314fcb, type: 2}
+  Grab: {fileID: 11400000, guid: a439cbc7019f8354ca1f0594d0367bff, type: 2}
+  SpecialNeutral: {fileID: 11400000, guid: 8714f694f1c1bce48bf066ce245a9c8c, type: 2}
+  SpecialForward: {fileID: 11400000, guid: 62af382e99f93364ab89fdf333b615f9, type: 2}
+  Signature: {fileID: 11400000, guid: 1648cd0d7e2d8f64fbfadda4e4400d47, type: 2}
+  ForwardHeavy: {fileID: 0}
+  Combos:
+  - Name: Choque em cadeia
+    Notation: "Soco \u2192 Chute \u2192 Especial"
+    Notes: Termina com a rajada de 4 socos.
+    Sequence: 010000000200000009000000i
+  - Name: Curto e rasteiro
+    Notation: "\u2193 + Soco \u2192 \u2193 + Chute \u2192 Especial + Frente"
+    Notes: Dois golpes baixos e o deslize que derruba.
+    Sequence: 04000000050000000a000000i
+  Guard: 2
+  Body:
+    Height: 0.95
+    Bulk: 0.85
+    Limb: 0.85
+    LegLength: 1.03
+  Palettes:
+  - Name: Amarelo
+    Primary: {r: 0.9490196, g: 0.7647059, b: 0.09411765, a: 1}
+    Secondary: {r: 0.08235294, g: 0.08235294, b: 0.09019608, a: 1}
+    Skin: {r: 0.8784314, g: 0.6627451, b: 0.52156866, a: 1}
+    Accent: {r: 1, g: 0.9490196, b: 0.65882355, a: 1}
+    Hair: {r: 0.22745098, g: 0.11764706, b: 0.0627451, a: 1}
+  - Name: Ciano
+    Primary: {r: 0.09411765, g: 0.7764706, b: 0.8509804, a: 1}
+    Secondary: {r: 0.95686275, g: 0.9647059, b: 0.98039216, a: 1}
+    Skin: {r: 0.8784314, g: 0.6627451, b: 0.52156866, a: 1}
+    Accent: {r: 0.78431374, g: 0.98039216, b: 1, a: 1}
+    Hair: {r: 0.22745098, g: 0.11764706, b: 0.0627451, a: 1}
+  IdleBounce: 2.4

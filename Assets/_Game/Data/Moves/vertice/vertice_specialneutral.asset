@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8184aa4466342be43aa716f75bd94622, type: 3}
+  m_Name: vertice_specialneutral
+  m_EditorClassIdentifier: UltimoRound.Runtime::UltimoRound.Combat.MoveDefinition
+  Id: vertice_specialneutral
+  DisplayName: Leque
+  Slot: 9
+  Notation: Especial
+  Description: "Alcance enorme. Derruba; eleg\xEDvel para rebote. Muito pun\xEDvel se defendido."
+  Level: 1
+  Damage: 100
+  Startup: 14
+  Active: 4
+  Recovery: 26
+  Hitstun: 22
+  Blockstun: 15
+  Hitstop: 10
+  Hitbox:
+    X: 1.35
+    Y: 1.15
+    W: 1.1
+    H: 0.42
+  Hits: 1
+  HitInterval: 0
+  PushbackHit: 0.5
+  PushbackBlock: 1
+  Knockdown: 1
+  LaunchVelocity: {x: 3, y: 5}
+  RopeBounce: 1
+  ExtendHurtbox: 1
+  EnergyCost: 0
+  EnergyGain: 10
+  CancelInto: 
+  CancelOnBlock: 1
+  CancelWindowExtra: 6
+  ForwardVelocity: 0
+  MoveStartTick: 0
+  MoveEndTick: 0
+  RequiresAir: 0
+  LandingRecovery: 4
+  Invuln: 0
+  InvulnStart: 0
+  InvulnEnd: 0
+  ThrowRange: 0.45
+  ThrowSwapsSides: 0
+  Pose: 13
+  HitSfx: 1
+  IsSpecial: 1

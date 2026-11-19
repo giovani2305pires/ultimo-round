@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b728c22b46929f4a8782c1b0c051ab7, type: 3}
+  m_Name: brutus
+  m_EditorClassIdentifier: UltimoRound.Runtime::UltimoRound.Combat.FighterDefinition
+  Id: brutus
+  DisplayName: Brutus
+  Epithet: O Brigador
+  Style: Briga pesada
+  Summary: "Golpes lentos e devastadores, agarr\xF5es fortes e muita vida. Vence trocas e castiga quem fica perto."
+  Weakness: "Lento para andar e iniciar golpes, corpo grande e recupera\xE7\xE3o longa: \xE9 punido ao errar e sofre contra press\xE3o r\xE1pida."
+  Selectable: 1
+  StatReach: 3
+  StatSpeed: 1
+  StatPower: 5
+  MaxHealth: 1150
+  WalkSpeed: 2
+  BackWalkSpeed: 1.6
+  DashSpeed: 6
+  DashTicks: 16
+  BackDashSpeed: 5.2
+  BackDashTicks: 18
+  BackDashInvulnTicks: 3
+  JumpVelocity: 9.2
+  JumpForwardSpeed: 2.6
+  Gravity: 32
+  PreJumpTicks: 4
+  LandingTicks: 5
+  PushHalfWidth: 0.4
+  PushHeight: 1.82
+  CrouchPushHeight: 1.2
+  StandHurtboxes:
+  - X: 0.05
+    Y: 0.91
+    W: 0.78
+    H: 1.82
+  - X: 0.14
+    Y: 1.74
+    W: 0.36
+    H: 0.34
+  CrouchHurtboxes:
+  - X: 0.05
+    Y: 0.6
+    W: 0.86
+    H: 1.2
+  AirHurtboxes:
+  - X: 0
+    Y: 0.9
+    W: 0.78
+    H: 1.4
+  Punch: {fileID: 11400000, guid: 6c3636350e93bd74f98214d7dcdbe1d3, type: 2}
+  Kick: {fileID: 11400000, guid: 75c7ea3b2339fa047b2d6d56095f7408, type: 2}
+  Heavy: {fileID: 11400000, guid: 64b974225cbc1d043b0dbdc609d381ee, type: 2}
+  CrouchPunch: {fileID: 11400000, guid: ae19cbdf0b7a890489bcb6c4800b2143, type: 2}
+  Low: {fileID: 11400000, guid: ffc325a0c3b2efb438289639dd78c096, type: 2}
+  AntiAir: {fileID: 11400000, guid: 051ebfb591dd4fc48a42310ed0318b08, type: 2}
+  Air: {fileID: 11400000, guid: 62c6e38a30687c04fb53d6da685e1718, type: 2}
+  Grab: {fileID: 11400000, guid: de92f6c4de6ca8c46b03730737bce744, type: 2}
+  SpecialNeutral: {fileID: 11400000, guid: fa4172bb829a9f947a2a19b33d52ab04, type: 2}
+  SpecialForward: {fileID: 11400000, guid: bda1e79527c77e24189bd9f1a70f1c5d, type: 2}
+  Signature: {fileID: 11400000, guid: c94df9dc2dbef454981641111405d7b9, type: 2}
+  ForwardHeavy: {fileID: 11400000, guid: b691c1740a975184f813cf70e8a488c9, type: 2}
+  Combos:
+  - Name: Rolo Compressor
+    Notation: "Soco \u2192 Chute \u2192 Especial + Frente"
+    Notes: "Termina com a investida (derruba; eleg\xEDvel para rebote)."
+    Sequence: 01000000020000000a000000i
+  - Name: Varredura
+    Notation: "\u2193 + Soco \u2192 \u2193 + Chute"
+    Notes: Derruba com a rasteira.
+    Sequence: 0400000005000000i
+  Guard: 1
+  Body:
+    Height: 1.08
+    Bulk: 1.38
+    Limb: 1.3
+    LegLength: 0.95
+  Palettes:
+  - Name: Vermelho
+    Primary: {r: 0.7529412, g: 0.14901961, b: 0.1764706, a: 1}
+    Secondary: {r: 0.18039216, g: 0.18039216, b: 0.2, a: 1}
+    Skin: {r: 0.65882355, g: 0.44313726, b: 0.30980393, a: 1}
+    Accent: {r: 1, g: 0.5411765, b: 0.4509804, a: 1}
+    Hair: {r: 0.08235294, g: 0.08235294, b: 0.08235294, a: 1}
+  - Name: Oliva
+    Primary: {r: 0.36862746, g: 0.41960785, b: 0.18039216, a: 1}
+    Secondary: {r: 0.8509804, g: 0.7882353, b: 0.6392157, a: 1}
+    Skin: {r: 0.65882355, g: 0.44313726, b: 0.30980393, a: 1}
+    Accent: {r: 0.9137255, g: 0.9411765, b: 0.70980394, a: 1}
+    Hair: {r: 0.08235294, g: 0.08235294, b: 0.08235294, a: 1}
+  IdleBounce: 0.9

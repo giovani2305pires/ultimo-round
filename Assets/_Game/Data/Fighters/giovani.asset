@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b728c22b46929f4a8782c1b0c051ab7, type: 3}
+  m_Name: giovani
+  m_EditorClassIdentifier: UltimoRound.Runtime::UltimoRound.Combat.FighterDefinition
+  Id: giovani
+  DisplayName: Giovani
+  Epithet: O Desafiante
+  Style: Kickboxing equilibrado
+  Summary: "Socos r\xE1pidos, chutes de m\xE9dia dist\xE2ncia e um avan\xE7o ofensivo curto. Bom para aprender o jogo."
+  Weakness: "Sem ferramentas extremas: perde em alcance para especialistas em chute e em dano para pesados. Especiais s\xE3o pun\xEDveis se defendidos."
+  Selectable: 1
+  StatReach: 3
+  StatSpeed: 3
+  StatPower: 3
+  MaxHealth: 1000
+  WalkSpeed: 2.6
+  BackWalkSpeed: 2
+  DashSpeed: 7.5
+  DashTicks: 14
+  BackDashSpeed: 6.5
+  BackDashTicks: 16
+  BackDashInvulnTicks: 5
+  JumpVelocity: 9.6
+  JumpForwardSpeed: 3
+  Gravity: 30
+  PreJumpTicks: 3
+  LandingTicks: 3
+  PushHalfWidth: 0.32
+  PushHeight: 1.7
+  CrouchPushHeight: 1.1
+  StandHurtboxes:
+  - X: 0.05
+    Y: 0.85
+    W: 0.6
+    H: 1.7
+  - X: 0.12
+    Y: 1.62
+    W: 0.32
+    H: 0.32
+  CrouchHurtboxes:
+  - X: 0.05
+    Y: 0.55
+    W: 0.7
+    H: 1.1
+  AirHurtboxes:
+  - X: 0
+    Y: 0.85
+    W: 0.6
+    H: 1.3
+  Punch: {fileID: 11400000, guid: 7aeaf2031372c97409ff7c2285303d61, type: 2}
+  Kick: {fileID: 11400000, guid: 26884d07a50feb64e9c81b3688e0058f, type: 2}
+  Heavy: {fileID: 11400000, guid: c754d0e1a33950c479d3e6c48d79760a, type: 2}
+  CrouchPunch: {fileID: 11400000, guid: f0e9fcf15e78ae8479855eef6dfa1f30, type: 2}
+  Low: {fileID: 11400000, guid: 486348f54fde93b4194d334ebd268870, type: 2}
+  AntiAir: {fileID: 11400000, guid: 43d2da5641a8c554599a67d95f3e753d, type: 2}
+  Air: {fileID: 11400000, guid: a1051cb4dda187d4387f1dbf24c509fd, type: 2}
+  Grab: {fileID: 11400000, guid: c152b3534a90db54fbac7063f206b4df, type: 2}
+  SpecialNeutral: {fileID: 11400000, guid: 10381b0f1fcd50d43a2df37a75a8bd22, type: 2}
+  SpecialForward: {fileID: 11400000, guid: 9b1573dd01ee4fb44bf20e71d4ce7dc7, type: 2}
+  Signature: {fileID: 11400000, guid: dd96a9e5af3ce9840b14fc9a5123f290, type: 2}
+  ForwardHeavy: {fileID: 0}
+  Combos:
+  - Name: "Press\xE3o Desafiante"
+    Notation: "Soco \u2192 Chute \u2192 Especial + Frente"
+    Notes: "Cancele cada golpe assim que acertar. Funciona a curta dist\xE2ncia."
+    Sequence: 01000000020000000a000000i
+  - Name: Rasteiro
+    Notation: "\u2193 + Soco \u2192 \u2193 + Chute"
+    Notes: Termina com golpe baixo; seguro para testar a defesa agachada.
+    Sequence: 0400000005000000i
+  Guard: 0
+  Body:
+    Height: 1
+    Bulk: 1
+    Limb: 1
+    LegLength: 1
+  Palettes:
+  - Name: Azul
+    Primary: {r: 0.11764706, g: 0.35686275, b: 0.84705883, a: 1}
+    Secondary: {r: 0.9490196, g: 0.95686275, b: 0.972549, a: 1}
+    Skin: {r: 0.7882353, g: 0.5568628, b: 0.41960785, a: 1}
+    Accent: {r: 0.9098039, g: 0.9411765, b: 1, a: 1}
+    Hair: {r: 0.16470589, g: 0.10980392, b: 0.078431375, a: 1}
+  - Name: Laranja
+    Primary: {r: 0.8862745, g: 0.4509804, b: 0.105882354, a: 1}
+    Secondary: {r: 0.105882354, g: 0.105882354, b: 0.12156863, a: 1}
+    Skin: {r: 0.7882353, g: 0.5568628, b: 0.41960785, a: 1}
+    Accent: {r: 1, g: 0.84313726, b: 0.65882355, a: 1}
+    Hair: {r: 0.16470589, g: 0.10980392, b: 0.078431375, a: 1}
+  IdleBounce: 1.7
